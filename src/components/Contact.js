@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import '../styles/Contact.css';
 
 class Contact extends Component {
@@ -11,14 +10,25 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
-        <div className="input">hello world</div>
+        <div className="contact-title">Get in touch</div>
+        <form className="contact-form">
+          <input className="contact-input" type="text" placeholder="Name" />
+          <input
+            className="contact-input"
+            type="email"
+            placeholder="Email Address"
+          />
+          <textarea
+            rows="8"
+            cols="50"
+            className="contact-input"
+            type="text"
+            placeholder="Your message"
+          />
+        </form>
       </div>
     );
   }
 }
-
-Contact.propTypes = {
-  contact: PropTypes.object.isRequired
-};
 
 export default Contact;

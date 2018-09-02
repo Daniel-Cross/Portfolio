@@ -21,6 +21,11 @@ const Header = () => (
       </Link>
     </div>
     <div className="links">
+      <span className="swedish">
+        <Link className="translate" to="/about/sv">
+          Swedish
+        </Link>
+      </span>
       <span className="nav-buttons">
         <Link className="item" to="/contact">
           <i className="far fa-envelope" /> Contact

@@ -1,0 +1,155 @@
+.current-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 95%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+.current-header {
+  font-weight: bold;
+  font-size: 25px;
+  color: #4B4453;
+}
+
+.current-body {
+  margin: 15px;
+  font-size: 20px;
+  color: #4B4453;
+}
+
+.languages-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 32%;
+  padding: 12px 20px;
+  margin: 10px 5px 10px 5px;
+}
+
+.languages-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.languages-body {
+  margin: 15px 0 5px 0;
+  font-size: 15px;
+}
+
+.experience-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 32%;
+  padding: 12px 10px;
+  margin: 10px 5px;
+}
+
+.experience-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.experience-body {
+  margin: 15px 0 5px 0;
+  font-size: 15px;
+}
+
+.hobbies-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 32%;
+  padding: 12px 20px;
+  margin: 10px 5px;
+}
+
+.hobbies-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hobbies-body {
+  margin: 15px 0 10px 0;
+  font-size: 15px;
+}
+
+.education-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 95%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+.education-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.education-body {
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+
+.school {
+  font-weight: bold;
+}
+
+.ed-date {
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.boxes-row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.job-address {
+  font-size: 14px;
+}
+
+.job-date {
+  font-size: 12px;
+}
+
+.cdl {
+  padding-bottom: 15px;
+}
+
+.ies {
+  padding-bottom: 10px;
+}
+
+.ex-see-more {
+  font-size: 12px;
+}
+
+.ex-see-more:hover {
+  color: #4B4453;
+  cursor: pointer;
+}
+
+.ed-see-more {
+  font-size: 12px;
+}
+
+.ed-see-more:hover {
+  color: #4B4453;
+  cursor: pointer;
+}
