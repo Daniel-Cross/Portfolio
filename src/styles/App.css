@@ -8,12 +8,5 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
-  animation: fadein 5s;
-  -moz-animation: fadein 5s;
-  /* Firefox */
-  -webkit-animation: fadein 5s;
-  /* Safari and Chrome */
-  -o-animation: fadein 5s;
-  /* Opera */
+  font-family: 'Raleway', sans-serif;
 }

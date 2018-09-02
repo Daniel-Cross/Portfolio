@@ -1,7 +1,14 @@
 .Header {
   color: white;
-  text-align: left;
+  text-align: center;
   border-bottom: 2px solid white;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  /* Firefox */
+  -webkit-animation: fadein 5s;
+  /* Safari and Chrome */
+  -o-animation: fadein 5s;
+  /* Opera */
 }
 
 .title {
@@ -11,18 +18,52 @@
 
 .links {
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
-.links>.far {
-  padding: 5px 2px 0px 40px;
-}
-
-.fas {
-  padding: 10px 5px 10px 30px;
+.nav-buttons {
+  text-align: center;
+  margin: 0 0 0 160px;
 }
 
 .logo {
   height: 50px;
   width: 80px;
-  padding: 5px 20px 0px 40px;
+  margin: 10px 0px 5px 0px;
+}
+
+.item {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.social {
+  float: right;
+  text-decoration-color: none;
+}
+
+.twitter {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.facebook {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.github {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.linkedin {
+  margin: 10px;
+  font-size: 25px;
 }

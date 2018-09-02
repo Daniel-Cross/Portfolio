@@ -9,8 +9,11 @@ class Contact extends Component {
   }
 
   render() {
-    const { contact } = this.props;
-    return <div className="Contact" />;
+    return (
+      <div className="Contact">
+        <div className="input">hello world</div>
+      </div>
+    );
   }
 }
 

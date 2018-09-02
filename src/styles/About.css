@@ -1,0 +1,21 @@
+.About {
+  color: white;
+  text-align: center;
+  animation: fadein 7s;
+  -moz-animation: fadein 7s;
+  /* Firefox */
+  -webkit-animation: fadein 7s;
+  /* Safari and Chrome */
+  -o-animation: fadein 7s;
+  /* Opera */
+}
+
+.content {
+  font-size: 80px;
+  margin-top: 0px;
+}
+
+.name {
+  font-weight: bold;
+  text-decoration: underline dotted white;
+}
