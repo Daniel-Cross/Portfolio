@@ -1,9 +1,12 @@
+.Landing {
+  padding: 200px;
+}
+
 .big-logo {
   width: 500px;
   height: 300px;
   display: block;
   margin: auto;
-  margin-top: 10em;
   animation: fadein 7s;
   -moz-animation: fadein 7s;
   /* Firefox */
@@ -28,7 +31,6 @@
 }
 
 @-moz-keyframes fadein {
-
   /* Firefox */
   from {
     opacity: 0;
@@ -40,7 +42,6 @@
 }
 
 @-webkit-keyframes fadein {
-
   /* Safari and Chrome */
   from {
     opacity: 0;
@@ -52,7 +53,6 @@
 }
 
 @-o-keyframes fadein {
-
   /* Opera */
   from {
     opacity: 0;
