@@ -31,14 +31,7 @@ class About extends Component {
               <br />
               my name is
               <br />
-              <img
-                className="click-logo"
-                src={require('/Users/DanielCross/Projects/portfolio/src/images/clickHere.png')}
-                alt="click-here"
-              />
-              <Link className="name-link" to="/info">
-                <span className="name">Daniel Cross</span>
-              </Link>
+              <span className="name">Daniel Cross</span>
               <br />
               and I'm a<br />
               Software Engineer

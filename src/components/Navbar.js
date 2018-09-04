@@ -26,6 +26,9 @@ const Navbar = () => (
         </Link>
       </span>
       <span className="nav-buttons">
+        <Link className="item" to="/info">
+          <i className="fas fa-info" /> Info
+        </Link>
         <Link className="item" to="/contact">
           <i className="far fa-envelope" /> Contact
         </Link>
