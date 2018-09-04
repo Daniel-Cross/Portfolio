@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
+    "gatsby-plugin-catch-links": "^1.0.24",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",

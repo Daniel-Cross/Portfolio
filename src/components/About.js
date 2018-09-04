@@ -27,7 +27,7 @@ class About extends Component {
             <Route exact path="/info/" component={Info} />
             <Route exact path="/info/sv" component={InfoSv} />
             <div className="content">
-              hi
+              Hi
               <br />
               my name is
               <br />

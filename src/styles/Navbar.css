@@ -1,7 +1,6 @@
 .Navbar {
   color: white;
   text-align: center;
-  border-bottom: 2px solid white;
   animation: fadein 5s;
   -moz-animation: fadein 5s;
   /* Firefox */
@@ -23,7 +22,7 @@
 
 .nav-buttons {
   text-align: center;
-  margin: 0 0 0 80px;
+  margin: 0 0 0 70px;
 }
 
 .logo {
@@ -92,6 +91,7 @@
   text-decoration: none;
   color: white;
   float: left;
+  margin-left: 10px;
 }
 
 .translate:hover {
