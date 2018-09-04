@@ -1,0 +1,19 @@
+.languages-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 32%;
+  padding: 12px 20px;
+  margin: 10px 5px 10px 5px;
+}
+
+.languages-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.languages-body {
+  margin: 15px 0 5px 0;
+  font-size: 15px;
+}

@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import '../styles/Header.css';
+import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
 
-const Header = () => (
-  <div className="Header">
+const Navbar = () => (
+  <div className="Navbar">
     <div className="title">
       <Link className="item" to="/about">
         <img
@@ -71,12 +70,4 @@ const Header = () => (
   </div>
 );
 
-Header.defaultProps = {
-  branding: 'My App'
-};
-
-Header.propTypes = {
-  branding: PropTypes.string.isRequired
-};
-
-export default Header;
+export default Navbar;

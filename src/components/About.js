@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import Navbar from './Navbar';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Contact from './Contact';
 import Blog from './Blog';
@@ -18,7 +18,7 @@ class About extends Component {
     return (
       <Router>
         <div className="About">
-          <Header />
+          <Navbar />
           <Switch>
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/blog" component={Blog} />

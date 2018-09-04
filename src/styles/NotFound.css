@@ -1,0 +1,11 @@
+.Not-found {
+  padding: 230px;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.Not-found>.fas {
+  font-size: 80px;
+}

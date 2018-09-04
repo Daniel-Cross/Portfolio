@@ -1,0 +1,19 @@
+.experience-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 32%;
+  padding: 12px 10px;
+  margin: 10px 5px;
+}
+
+.experience-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.experience-body {
+  margin: 15px 0 5px 0;
+  font-size: 15px;
+}

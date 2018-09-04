@@ -1,0 +1,29 @@
+.education-box {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 95%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+.education-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.education-body {
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+
+.school {
+  font-weight: bold;
+}
+
+.ed-date {
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
