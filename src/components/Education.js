@@ -13,28 +13,27 @@ class Education extends Component {
   render() {
     return (
       <div className="education-box">
-        <div className="education-header">Education:</div>
-        <br />
-
-        <div className="school">
-          Manchester Codes Academy
-          <div className="ed-date">May 2018 - November 2018</div>
-        </div>
-        <div className="education-body">
-          Test-Driven Development and Object-Oriented Programming with focus on
-          JavaScript. Technologies learned: JavaScript, HTML5, CSS3, Sass, Git,
-          Node.js, npm, mongoDB, React.
-        </div>
-        <div className="school">
-          University of Bolton
-          <div className="ed-date">August 2010 - July 2011</div>
-        </div>
-        <div className="education-body">
-          Post Graduate Certificate in Education {'(Teacher training)'}
-        </div>
-
         {this.state.showContentEd ? (
           <div>
+            <div className="education-header">Education:</div>
+            <br />
+
+            <div className="school">
+              Manchester Codes Academy
+              <div className="ed-date">May 2018 - November 2018</div>
+            </div>
+            <div className="education-body">
+              Test-Driven Development and Object-Oriented Programming with focus
+              on JavaScript. Technologies learned: JavaScript, HTML5, CSS3,
+              Sass, Git, Node.js, npm, mongoDB, React.
+            </div>
+            <div className="school">
+              University of Bolton
+              <div className="ed-date">August 2010 - July 2011</div>
+            </div>
+            <div className="education-body">
+              Post Graduate Certificate in Education {'(Teacher training)'}
+            </div>
             <div className="school">
               University of Salford
               <div className="ed-date">August 2006 - July 2009</div>
@@ -50,11 +49,37 @@ class Education extends Component {
               <div className="ed-date">September 1998 - July 2003</div>
             </div>
             <div className="education-body">Secondary School</div>
+
+            <span onClick={this.handleClickEd} className="ed-see-more">
+              See Less <i className="fas fa-sort-up" />
+            </span>
           </div>
-        ) : null}
-        <span onClick={this.handleClickEd} className="ed-see-more">
-          See More <i className="fas fa-sort-down" />
-        </span>
+        ) : (
+          <div>
+            <div className="education-header">Education:</div>
+            <br />
+
+            <div className="school">
+              Manchester Codes Academy
+              <div className="ed-date">May 2018 - November 2018</div>
+            </div>
+            <div className="education-body">
+              Test-Driven Development and Object-Oriented Programming with focus
+              on JavaScript. Technologies learned: JavaScript, HTML5, CSS3,
+              Sass, Git, Node.js, npm, mongoDB, React.
+            </div>
+            <div className="school">
+              University of Bolton
+              <div className="ed-date">August 2010 - July 2011</div>
+            </div>
+            <div className="education-body">
+              Post Graduate Certificate in Education {'(Teacher training)'}
+            </div>
+            <span onClick={this.handleClickEd} className="ed-see-more">
+              See More <i className="fas fa-sort-down" />
+            </span>
+          </div>
+        )}
       </div>
     );
   }
