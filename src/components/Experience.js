@@ -76,7 +76,7 @@ class Experience extends Component {
                 <span className="job-date">September 2010 - August 2012</span>
               </div>
               <span onClick={this.handleClickEx} className="ex-see-more">
-                See Less
+                Show Less
                 <i className="fas fa-sort-up" />
               </span>
             </div>
@@ -100,7 +100,7 @@ class Experience extends Component {
               <span className="job-date">June 2017 - June 2018</span>
             </div>
             <span onClick={this.handleClickEx} className="ex-see-more">
-              See More
+              Show More
               <i className="fas fa-sort-down" />
             </span>
           </div>

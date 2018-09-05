@@ -51,7 +51,7 @@ class Education extends Component {
             <div className="education-body">Secondary School</div>
 
             <span onClick={this.handleClickEd} className="ed-see-more">
-              See Less <i className="fas fa-sort-up" />
+              Show Less <i className="fas fa-sort-up" />
             </span>
           </div>
         ) : (
@@ -76,7 +76,7 @@ class Education extends Component {
               Post Graduate Certificate in Education {'(Teacher training)'}
             </div>
             <span onClick={this.handleClickEd} className="ed-see-more">
-              See More <i className="fas fa-sort-down" />
+              Show More <i className="fas fa-sort-down" />
             </span>
           </div>
         )}
