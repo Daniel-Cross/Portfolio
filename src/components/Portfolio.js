@@ -3,12 +3,24 @@ import React, { Component } from 'react';
 class Portfolio extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      activeTab: 0
+    };
   }
   render() {
     return (
       <div className="Portfolio">
-        <div className="input">hello zigs</div>
+        <div className="category-tabs">
+          <tabs
+            activeTab={this.state.activeTab}
+            onChange={tabID => this.setState({ activeTab: tabID })}
+          >
+            <div>React App</div>
+            <div>React App</div>
+            <div>React App</div>
+            <div>React App</div>
+          </tabs>
+        </div>
       </div>
     );
   }

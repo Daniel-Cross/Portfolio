@@ -16,6 +16,8 @@ const Languages = () => {
         <br />
         Sass
         <br />
+        Bootstrap
+        <br />
         Node.js
         <br />
       </div>
