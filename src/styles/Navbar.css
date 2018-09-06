@@ -22,7 +22,6 @@
 
 .nav-buttons {
   text-align: center;
-  margin: 0 0 0 70px;
 }
 
 .logo {
@@ -40,51 +39,6 @@
 .item:hover {
   color: #4B4453;
   cursor: pointer;
-}
-
-.social {
-  float: right;
-  text-decoration-color: none;
-}
-
-.twitter {
-  margin: 10px;
-  color: white;
-  font-size: 25px;
-}
-
-.facebook {
-  margin: 10px;
-  font-size: 25px;
-  color: white;
-}
-
-.github {
-  margin: 10px;
-  font-size: 25px;
-  color: white;
-}
-
-.linkedin {
-  margin: 10px;
-  font-size: 25px;
-  color: white;
-}
-
-.twitter:hover {
-  color: #4B4453;
-}
-
-.facebook:hover {
-  color: #4B4453;
-}
-
-.github:hover {
-  color: #4B4453;
-}
-
-.linkedin:hover {
-  color: #4B4453;
 }
 
 .translate {

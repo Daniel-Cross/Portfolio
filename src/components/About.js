@@ -27,16 +27,39 @@ class About extends Component {
             <Route exact path="/info/" component={Info} />
             <Route exact path="/info/sv" component={InfoSv} />
             <div className="content">
-              Hi
-              <br />
-              my name is
-              <br />
-              <span className="name">Daniel Cross</span>
-              <br />
-              and I'm a<br />
-              Software Engineer
-              <br />
+              <div className="name">Daniel Cross</div>
               <hr className="line" />
+              <div className="software">Software Engineer</div>
+              <div className="social">
+                <a
+                  className="twitter"
+                  href="https://twitter.com/DanCrossy"
+                  target="_blank"
+                >
+                  <i className="fab fa-twitter" />
+                </a>
+                <a
+                  className="facebook"
+                  href="https://www.facebook.com/crossy1686"
+                  target="_blank"
+                >
+                  <i className="fab fa-facebook-f" />
+                </a>
+                <a
+                  className="facebook"
+                  href="https://github.com/Daniel-Cross"
+                  target="_blank"
+                >
+                  <i className="fab fa-github" />
+                </a>
+                <a
+                  className="linkedin"
+                  href="https://www.linkedin.com/in/daniel-cross/"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin" />
+                </a>
+              </div>
             </div>
           </Switch>
         </div>
