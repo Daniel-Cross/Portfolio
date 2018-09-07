@@ -11,7 +11,7 @@ class Portfolio extends Component {
     return (
       <div className="Portfolio">
         <div className="category-tabs">
-          <tabs
+          <div
             activeTab={this.state.activeTab}
             onChange={tabID => this.setState({ activeTab: tabID })}
           >
@@ -19,7 +19,7 @@ class Portfolio extends Component {
             <div>React App</div>
             <div>React App</div>
             <div>React App</div>
-          </tabs>
+          </div>
         </div>
       </div>
     );
