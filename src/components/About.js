@@ -46,7 +46,7 @@ class About extends Component {
                   <i className="fab fa-facebook-f" />
                 </a>
                 <a
-                  className="facebook"
+                  className="github"
                   href="https://github.com/Daniel-Cross"
                   target="_blank"
                 >
