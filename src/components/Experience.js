@@ -88,7 +88,7 @@ class Experience extends Component {
               <br />
               <span className="job-address">CDL, Stockport, UK</span>
               <br />
-              <span className="job-date">June 2018 - Present</span>
+              <span className="job-date">June 2018 - August 2018</span>
             </div>
             <div className="ies">
               <span className="job-title">Vice Principal</span>

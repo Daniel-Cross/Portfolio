@@ -59,6 +59,13 @@ class About extends Component {
                 >
                   <i className="fab fa-linkedin" />
                 </a>
+                <a
+                  className="medium"
+                  href="https://medium.com/daniel-cross-how-i-learned-to-stop-worrying-and"
+                  target="_blank"
+                >
+                  <i className="fab fa-medium-m" />
+                </a>
               </div>
             </div>
           </Switch>
