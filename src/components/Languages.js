@@ -8,10 +8,6 @@ const Languages = () => {
       <div className="languages-body">
         JavaScript
         <br />
-        HTML
-        <br />
-        CSS
-        <br />
         React
         <br />
         Sass
@@ -19,6 +15,10 @@ const Languages = () => {
         Bootstrap
         <br />
         Node.js
+        <br />
+        HTML
+        <br />
+        CSS
         <br />
       </div>
     </div>

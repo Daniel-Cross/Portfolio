@@ -9,9 +9,10 @@ const Hobbies = () => {
         Determined self-learner with previous experience in dynamic and fast
         paced environments. Highly motivated and enjoy working to deadlines.
       </div>
+      <br />
       <div>
-        Interests include coding, technology, sports, music, going to the gym
-        and learning Swedish.
+        Interests include coding, technology, sports, playing guitar, speaking
+        Swedish, music, going to the gym.
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ class Experience extends Component {
         {this.state.showContentEx ? (
           <div className="experience-body">
             <div className="cdl">
-              <span className="job-title">Product Developer</span>
+              <span className="job-title">Junior Product Developer</span>
               <br />
               <span className="job-address">CDL, Stockport, UK</span>
               <br />
@@ -84,7 +84,7 @@ class Experience extends Component {
         ) : (
           <div className="experience-body">
             <div className="cdl">
-              <span className="job-title">Product Developer</span>
+              <span className="job-title">Junior Product Developer</span>
               <br />
               <span className="job-address">CDL, Stockport, UK</span>
               <br />

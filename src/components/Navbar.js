@@ -30,9 +30,11 @@ const Navbar = () => (
         <Link className="item" to="/info">
           <i className="fas fa-info" /> Info
         </Link>
-        <Link className="item" to="/contact">
+        {/* <Link className="item" to="/contact"> */}
+        <a href={'mailto: dan.s.cross@icloud.com?subject=Hi%20Daniel!'}>
           <i className="far fa-envelope" /> Contact
-        </Link>
+        </a>
+        {/* </Link> */}
 
         {/* <Link className="item" to="/blog">
           <i className="fas fa-pencil-alt" /> Blog
