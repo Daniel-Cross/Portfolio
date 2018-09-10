@@ -6,8 +6,9 @@ const Hobbies = () => {
     <div className="hobbies-box">
       <div className="hobbies-header">Personal Statement:</div>
       <div className="hobbies-body">
-        Determined self-learner with previous experience in dynamic and fast
-        paced environments. Highly motivated and enjoy working to deadlines.
+        Determined &amp; dedicated self-learner with previous experience in
+        dynamic and fast paced environments. Highly motivated and enjoy working
+        to deadlines.
       </div>
       <br />
       <div>
