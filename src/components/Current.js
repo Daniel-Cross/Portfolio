@@ -3,7 +3,7 @@ import '../styles/Current.css';
 
 const Current = () => (
   <div className="current-box">
-    <div className="current-header">Current Status:</div>
+    <div className="current-header">Current Status</div>
 
     <span className="current-body">
       <div>

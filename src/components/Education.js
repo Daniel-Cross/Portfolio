@@ -56,7 +56,7 @@ class Education extends Component {
           </div>
         ) : (
           <div>
-            <div className="education-header">Education:</div>
+            <div className="education-header">Education</div>
             <br />
 
             <div className="school">

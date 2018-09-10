@@ -13,7 +13,7 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience-box">
-        <div className="experience-header">Experience:</div>
+        <div className="experience-header">Experience</div>
 
         {this.state.showContentEx ? (
           <div className="experience-body">
