@@ -80,6 +80,24 @@ class Portfolio extends Component {
             </a>
           </div>
         </div>
+        <div className="card">
+          <img
+            className="avatar"
+            src={require('/Users/DanielCross/Projects/portfolio/src/images/Screen Shot 2018-09-10 at 15.07.00.png')}
+            alt="Avatar"
+          />
+          <div className="container">
+            <h4>
+              <b>Portfolio</b>
+            </h4>
+            <p>Single Page App built using React.js</p>
+          </div>
+          <div className="card-buttons">
+            <a href="https://github.com/Daniel-Cross/portfolio" target="_blank">
+              <button className="work-button">GitHub</button>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
