@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => (
   <div className="Navbar">
     <div className="title">
-      <Link className="item" to="/about">
+      <Link className="item" to="/">
         <img
           className="logo"
           src={require('/Users/DanielCross/Projects/portfolio/src/images/logocolour.png')}
