@@ -22,7 +22,7 @@ class About extends Component {
           <Switch>
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/blog" component={Blog} />
-            <Route exact path="/portfolio" component={Projects} />
+            <Route exact path="/projects" component={Projects} />
             <Route exact path="/about/sv" component={AboutSv} />
             <Route exact path="/info/" component={Info} />
             <Route exact path="/info/sv" component={InfoSv} />
