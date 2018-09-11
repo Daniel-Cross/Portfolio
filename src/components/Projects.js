@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Portfolio.css';
 
-class Portfolio extends Component {
+class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -103,4 +103,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Projects;

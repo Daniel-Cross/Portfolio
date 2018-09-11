@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Contact from './Contact';
 import Blog from './Blog';
-import Portfolio from './Portfolio';
+import Projects from './Projects';
 import AboutSv from './About.sv';
 import Info from './Info';
 import InfoSv from './Info.sv';
@@ -22,7 +22,7 @@ class About extends Component {
           <Switch>
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/blog" component={Blog} />
-            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/portfolio" component={Projects} />
             <Route exact path="/about/sv" component={AboutSv} />
             <Route exact path="/info/" component={Info} />
             <Route exact path="/info/sv" component={InfoSv} />

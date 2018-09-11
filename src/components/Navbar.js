@@ -40,8 +40,8 @@ const Navbar = () => (
           <i className="fas fa-pencil-alt" /> Blog
         </Link> */}
 
-        <Link className="item" to="/portfolio">
-          <i className="fas fa-book" /> Portfolio
+        <Link className="item" to="/projects">
+          <i className="fas fa-book" /> Projects
         </Link>
       </span>
     </div>
