@@ -2,7 +2,7 @@
   "name": "contact-manager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://daniel-cross.github.io/",
+  "homepage": "https://daniel-cross.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "gh-pages": "^1.2.0",
