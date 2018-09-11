@@ -98,6 +98,33 @@ class Projects extends Component {
             </a>
           </div>
         </div>
+        <div className="card">
+          <img
+            className="avatar"
+            src={require('/Users/DanielCross/Projects/portfolio/src/images/Screen Shot 2018-09-11 at 16.39.16.png')}
+            alt="Avatar"
+          />
+          <div className="container">
+            <h4>
+              <b>Contact Manager</b>
+            </h4>
+            <p>CRUD application. built using React and Bootstrap</p>
+          </div>
+          <div className="card-buttons">
+            <a
+              href="https://github.com/Daniel-Cross/contact-manager"
+              target="_blank"
+            >
+              <button className="work-button">GitHub</button>
+            </a>
+            <a
+              href="https://daniel-cross.github.io/contact-manager/#/"
+              target="_blank"
+            >
+              <button className="work-button">Live Demo</button>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
