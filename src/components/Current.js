@@ -8,15 +8,14 @@ const Current = () => (
     <span className="current-body">
       <div>
         Actively seeking position of Junior Web Developer/Junior Software
-        Engineer with focus on front end JavaScript and React. Looking to
-        develop and grow my skill-set to become a better developer.
+        Engineer with focus on front end JavaScript and React.
       </div>
       <br />
       <div>
         Current attendee of Manchester Codes Academy, a coding school based in
-        Manchester - 24 week intensive course covering
-        Test-Driven-Development/TDD, JavaScript, Express, MongoDB, React,
-        Node.js, Sass, HTML &amp; CSS.
+        Manchester - 24 week intensive course covering Test-Driven-Development,
+        Object Orientated Programming, JavaScript, Express.js, MongoDB, React,
+        Node.js, Sass/Scss, HTML5 &amp; CSS3.
       </div>
     </span>
   </div>

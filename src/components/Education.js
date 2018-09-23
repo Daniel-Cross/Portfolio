@@ -24,8 +24,8 @@ class Education extends Component {
             </div>
             <div className="education-body">
               Test-Driven Development and Object-Oriented Programming with focus
-              on JavaScript. Technologies learned: JavaScript, HTML5, CSS3,
-              Sass, Git, Node.js, npm, mongoDB, React.
+              on JavaScript. Technologies learned: JavaScript, React, HTML5,
+              CSS3, Sass/Scss, Node.js, MongoDB.
             </div>
             <div className="school">
               University of Bolton
@@ -65,8 +65,8 @@ class Education extends Component {
             </div>
             <div className="education-body">
               Test-Driven Development and Object-Oriented Programming with focus
-              on JavaScript. Technologies learned: JavaScript, HTML5, CSS3,
-              Sass, Git, Node.js, npm, mongoDB, React.
+              on JavaScript. Technologies learned: JavaScript, React, HTML5,
+              CSS3, Sass/Scss, Node.js, MongoDB.
             </div>
             <div className="school">
               University of Bolton

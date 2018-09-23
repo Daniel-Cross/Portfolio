@@ -6,14 +6,16 @@ const Hobbies = () => {
     <div className="hobbies-box">
       <div className="hobbies-header">Personal Statement</div>
       <div className="hobbies-body">
-        Determined &amp; dedicated self-learner with previous experience in
-        dynamic and fast paced environments. Highly motivated and enjoy working
-        to deadlines.
-      </div>
-      <br />
-      <div>
-        Interests include coding, technology, sports, playing guitar, speaking
-        Swedish, music, gym.
+        Professional &amp; extremely dedicated self-learner. Relishes dynamic
+        and fast paced environments. Enjoy challenging myself and pushing the
+        barriers of my comfort zone in order to develop and learn.
+        <br />
+        <div>
+          <br />
+          Previously worked as a Vice Principal in Stockholm, Sweden before
+          returning to Manchester for a career change. Attended Bolton and
+          Salford University and studied Music and a PGCE (Teacher training).
+        </div>
       </div>
     </div>
   );
