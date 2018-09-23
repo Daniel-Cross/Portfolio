@@ -125,6 +125,30 @@ class Projects extends Component {
             </a>
           </div>
         </div>
+        <div className="card">
+          <img
+            className="avatar"
+            src={require('/Users/DanielCross/Projects/portfolio/src/images/Screen Shot 2018-09-19 at 00.16.59.png')}
+            alt="Avatar"
+          />
+          <div className="container">
+            <h4>
+              <b>Song List</b>
+            </h4>
+            <p>
+              Small JavaScript application that allows a user to add their
+              favourite songs, artists and albums.{' '}
+            </p>
+          </div>
+          <div className="card-buttons">
+            <a href="https://github.com/Daniel-Cross/songlist" target="_blank">
+              <button className="work-button">GitHub</button>
+            </a>
+            <a href="https://daniel-cross.github.io/songlist/" target="_blank">
+              <button className="work-button">Live Demo</button>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
