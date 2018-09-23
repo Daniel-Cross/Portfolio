@@ -29,6 +29,8 @@ class About extends Component {
             <div className="content">
               <div className="name">Daniel Cross</div>
               <hr className="line" />
+              {/* <div class="stars" />
+              <div class="twinkling" /> */}
               <div className="software">Software Engineer</div>
               <div className="social">
                 <a
