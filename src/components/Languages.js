@@ -10,17 +10,17 @@ const Languages = () => {
       <div className="languages-body">
         JavaScript
         <br />
-        React
+        React.js
         <br />
-        Sass
+        Sass/Scss
         <br />
         Bootstrap
         <br />
         Node.js
         <br />
-        HTML
+        HTML5
         <br />
-        CSS
+        CSS3
         <br />
         Express.js
         <br />

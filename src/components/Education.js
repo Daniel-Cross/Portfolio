@@ -15,7 +15,7 @@ class Education extends Component {
       <div className="education-box">
         {this.state.showContentEd ? (
           <div>
-            <div className="education-header">Education:</div>
+            <div className="education-header">Education</div>
             <br />
 
             <div className="school">
