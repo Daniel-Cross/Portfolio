@@ -22,8 +22,8 @@ class Projects extends Component {
               <b>Surreal Estate</b>
             </h4>
             <p>
-              Property search engine similar to Right Move or Zoopla. Built
-              using React
+              Property search engine similar to Right Move or Zoopla. Created
+              using React.js
             </p>
           </div>
           <div className="card-buttons">
@@ -47,7 +47,7 @@ class Projects extends Component {
             </h4>
             <p>
               Dynamic weather app that gives weekly weather reports based on
-              api. Built using React
+              api. Created using React.js
             </p>
           </div>
           <div className="card-buttons">
@@ -69,7 +69,9 @@ class Projects extends Component {
             <h4>
               <b>Cruise Ship</b>
             </h4>
-            <p>Operational cruise ship with gui. Built using JavaScript</p>
+            <p>
+              Operational cruise ship with gui. Created using Vanilla JavaScript
+            </p>
           </div>
           <div className="card-buttons">
             <a
@@ -90,7 +92,7 @@ class Projects extends Component {
             <h4>
               <b>Portfolio</b>
             </h4>
-            <p>Single Page App built using React.js</p>
+            <p>Single Page App Portfolio created using React.js</p>
           </div>
           <div className="card-buttons">
             <a href="https://github.com/Daniel-Cross/portfolio" target="_blank">
@@ -101,14 +103,17 @@ class Projects extends Component {
         <div className="card">
           <img
             className="avatar"
-            src={require('/Users/DanielCross/Projects/portfolio/src/images/Screen Shot 2018-09-11 at 16.39.16.png')}
+            src={require('/Users/DanielCross/Projects/portfolio/src/images/Screen Shot 2018-09-24 at 13.31.48.png')}
             alt="Avatar"
           />
           <div className="container">
             <h4>
               <b>Contact Manager</b>
             </h4>
-            <p>CRUD application. built using React and Bootstrap</p>
+            <p>
+              Create Read Update Delete contacts database application. Created
+              using React and Bootstrap
+            </p>
           </div>
           <div className="card-buttons">
             <a
@@ -136,8 +141,8 @@ class Projects extends Component {
               <b>Song List</b>
             </h4>
             <p>
-              Small JavaScript application that allows a user to add their
-              favourite songs, artists and albums.{' '}
+              Lightweight Vanilla JavaScript application that allows a user to
+              add their favourite songs, artists and albums.{' '}
             </p>
           </div>
           <div className="card-buttons">
