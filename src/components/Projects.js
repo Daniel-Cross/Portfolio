@@ -154,6 +154,35 @@ class Projects extends Component {
             </a>
           </div>
         </div>
+        <div className="card">
+          <img
+            className="avatar"
+            src={require('/Users/DanielCross/Projects/portfolio/src/images/Screen Shot 2018-09-26 at 12.29.50.png')}
+            alt="Avatar"
+          />
+          <div className="container">
+            <h4>
+              <b>Github Search Engine</b>
+            </h4>
+            <p>
+              Search GitHub's database for usernames and return their profiles.
+            </p>
+          </div>
+          <div className="card-buttons">
+            <a
+              href="https://github.com/Daniel-Cross/github-search"
+              target="_blank"
+            >
+              <button className="work-button">GitHub</button>
+            </a>
+            <a
+              href="https://daniel-cross.github.io/github-search/"
+              target="_blank"
+            >
+              <button className="work-button">Live Demo</button>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
