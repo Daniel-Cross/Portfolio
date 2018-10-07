@@ -72,6 +72,7 @@ class Projects extends Component {
             <p>
               Operational cruise ship with gui. Created using Vanilla JavaScript
             </p>
+            <br />
           </div>
           <div className="card-buttons">
             <a
@@ -93,6 +94,7 @@ class Projects extends Component {
               <b>Portfolio</b>
             </h4>
             <p>Single Page App Portfolio created using React.js</p>
+            <br />
           </div>
           <div className="card-buttons">
             <a href="https://github.com/Daniel-Cross/portfolio" target="_blank">
@@ -114,6 +116,7 @@ class Projects extends Component {
               Create Read Update Delete contacts database application. Created
               using React and Bootstrap
             </p>
+            <br />
           </div>
           <div className="card-buttons">
             <a

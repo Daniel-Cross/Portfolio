@@ -22,7 +22,7 @@ class Experience extends Component {
               <br />
               <span className="job-address">CDL, Stockport, UK</span>
               <br />
-              <span className="job-date">June 2018 - August 2018</span>
+              <span className="job-date">April 2018 - September 2018</span>
             </div>
             <div className="ies">
               <span className="job-title">Vice Principal</span>
@@ -31,7 +31,7 @@ class Experience extends Component {
                 Internationella Engelska Skolan, Stockholm, Sweden
               </span>
               <br />
-              <span className="job-date">June 2017 - June 2018</span>
+              <span className="job-date">June 2017 - March 2018</span>
             </div>
 
             <div className="work-section">
@@ -88,7 +88,7 @@ class Experience extends Component {
               <br />
               <span className="job-address">CDL, Stockport, UK</span>
               <br />
-              <span className="job-date">June 2018 - August 2018</span>
+              <span className="job-date">April 2018 - September 2018</span>
             </div>
             <div className="ies">
               <span className="job-title">Vice Principal</span>
@@ -97,7 +97,7 @@ class Experience extends Component {
                 Internationella Engelska Skolan, Stockholm, Sweden
               </span>
               <br />
-              <span className="job-date">June 2017 - June 2018</span>
+              <span className="job-date">June 2017 - March 2018</span>
             </div>
             <span onClick={this.handleClickEx} className="ex-see-more">
               Show More
