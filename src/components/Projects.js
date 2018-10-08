@@ -14,6 +14,32 @@ class Projects extends Component {
         <div className="card">
           <img
             className="avatar"
+            src={require('/Users/DanielCross/Projects/portfolio/src/images/5-3-1.png')}
+            alt="Avatar"
+          />
+          <div className="container">
+            <h4>
+              <b>5-3-1 Workout Tracker</b>
+            </h4>
+            <p>
+              Currently under construction. App to track progress and
+              development of your 5-3-1 workout plan. Front end created in
+              React.js and back end created using Node.js, Express.js and
+              MongoDB.
+            </p>
+          </div>
+          <div className="card-buttons">
+            <a
+              href="https://github.com/Daniel-Cross/surreal-estate"
+              target="_blank"
+            >
+              <button className="work-button">GitHub</button>
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            className="avatar"
             src={require('/Users/DanielCross/Projects/portfolio/src/images/Screen Shot 2018-09-05 at 12.56.12.png')}
             alt="Avatar"
           />
@@ -177,12 +203,6 @@ class Projects extends Component {
               target="_blank"
             >
               <button className="work-button">GitHub</button>
-            </a>
-            <a
-              href="https://daniel-cross.github.io/github-search/"
-              target="_blank"
-            >
-              <button className="work-button">Live Demo</button>
             </a>
           </div>
         </div>
