@@ -30,7 +30,7 @@ class Projects extends Component {
           </div>
           <div className="card-buttons">
             <a
-              href="https://github.com/Daniel-Cross/surreal-estate"
+              href="https://github.com/Daniel-Cross/react-531-website"
               target="_blank"
             >
               <button className="work-button">GitHub</button>
@@ -58,6 +58,13 @@ class Projects extends Component {
               target="_blank"
             >
               <button className="work-button">GitHub</button>
+            </a>
+            <a
+              href="https://surreal-estate-front.herokuapp.com/
+"
+              target="_blank"
+            >
+              <button className="work-button">Live Demo</button>
             </a>
           </div>
         </div>
