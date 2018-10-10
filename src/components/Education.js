@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Education.css';
+import Button from '@material-ui/core/Button';
 
 class Education extends Component {
   state = {};
@@ -50,9 +51,11 @@ class Education extends Component {
             </div>
             <div className="education-body">Secondary School</div>
 
-            <span onClick={this.handleClickEd} className="ed-see-more">
-              Show Less <i className="fas fa-sort-up" />
-            </span>
+            <Button variant="contained" color="secondary">
+              <span onClick={this.handleClickEd} className="ed-see-more">
+                Show Less <i className="fas fa-sort-up" />
+              </span>
+            </Button>
           </div>
         ) : (
           <div>
@@ -75,9 +78,11 @@ class Education extends Component {
             <div className="education-body">
               Post Graduate Certificate in Education {'(Teacher training)'}
             </div>
-            <span onClick={this.handleClickEd} className="ed-see-more">
-              Show More <i className="fas fa-sort-down" />
-            </span>
+            <Button variant="contained" color="secondary">
+              <span onClick={this.handleClickEd} className="ed-see-more">
+                Show More <i className="fas fa-sort-down" />
+              </span>
+            </Button>
           </div>
         )}
       </div>

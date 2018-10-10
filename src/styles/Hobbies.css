@@ -18,3 +18,10 @@
   margin: 15px 0 10px 0;
   font-size: 15px;
 }
+
+@media (max-width: 576px) {
+  .hobbies-box {
+    width: 95%;
+    margin: auto;
+  }
+}

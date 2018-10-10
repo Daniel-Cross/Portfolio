@@ -90,6 +90,21 @@
   color: #4B4453;
 }
 
+@media (max-width: 576px) {
+  .About {
+    text-align: center;
+    padding-bottom: 75px;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  .software {
+    font-size: 50px;
+  }
+}
+
 /* @keyframes move-twink-back {
   from {
     background-position: 0 0;

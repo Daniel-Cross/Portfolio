@@ -41,3 +41,19 @@
   color: #4B4453;
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  .boxes-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  .software {
+    font-size: 50px;
+  }
+}

@@ -6,49 +6,11 @@
   height: 100%;
 }
 
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 5px 5px 10px rgb(85, 85, 85);
-  transition: 0.3s;
-  width: 30%;
-  border-radius: 4px;
-  margin-top: 50px;
-}
-
-.avatar {
-  width: 100%;
-  border-radius: 4px;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
-
-.work-button {
-  width: 50%;
-  color: white;
-  padding: 14px 20px;
-  background-color: rgb(83, 83, 83);
-  cursor: pointer;
-  border: none;
-  font-size: 20px;
-  border-radius: 5px;
-}
-
-button:focus {
-  outline: none
-}
-
-button:active {
-  transform: translateY(1px);
-}
-
-button:hover {
-  background-color: rgb(96, 88, 107);
+@media (max-width: 576px) {
+  .Portfolio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
 }

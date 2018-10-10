@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Experience.css';
+import Button from '@material-ui/core/Button';
 
 class Experience extends Component {
   state = {};
@@ -75,10 +76,12 @@ class Experience extends Component {
                 <br />
                 <span className="job-date">September 2010 - August 2012</span>
               </div>
-              <span onClick={this.handleClickEx} className="ex-see-more">
-                Show Less
-                <i className="fas fa-sort-up" />
-              </span>
+              <Button variant="contained" color="secondary">
+                <span onClick={this.handleClickEx} className="ex-see-more">
+                  Show Less
+                  <i className="fas fa-sort-up" />
+                </span>
+              </Button>
             </div>
           </div>
         ) : (
@@ -99,10 +102,12 @@ class Experience extends Component {
               <br />
               <span className="job-date">June 2017 - March 2018</span>
             </div>
-            <span onClick={this.handleClickEx} className="ex-see-more">
-              Show More
-              <i className="fas fa-sort-down" />
-            </span>
+            <Button variant="contained" color="secondary">
+              <span onClick={this.handleClickEx} className="ex-see-more">
+                Show More
+                <i className="fas fa-sort-down" />
+              </span>
+            </Button>
           </div>
         )}
       </div>
