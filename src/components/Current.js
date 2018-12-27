@@ -7,15 +7,18 @@ const Current = () => (
 
     <span className="current-body">
       <div>
-        Actively seeking position of Junior Web Developer/Junior Software
-        Engineer with focus on front end JavaScript and React.
+        Actively seeking position of Front-End Web Developer/Software Engineer
+        with focus on front end JavaScript and React.
       </div>
       <br />
       <div>
-        Current attendee of Manchester Codes Academy, a coding school based in
-        Manchester - 24 week intensive course covering Test-Driven-Development,
-        Object Orientated Programming, JavaScript, Express.js, MongoDB, React,
-        Node.js, Sass/Scss, HTML5 &amp; CSS3.
+        Currently Working as a Software Engineer for Booking.com within the
+        Booking Experience team based in Manchester City Centre. Technologies
+        worked with include JavaScript, React.js, TypeScript, Node.js, Jest,
+        HTML and CSS.
+        <br /> <br />
+        Relocating to Stockholm, Sweden and looking for work within the Greater
+        Stockholm area.
       </div>
     </span>
   </div>

@@ -5,7 +5,7 @@ const Languages = () => {
   return (
     <div className="languages-box">
       <div className="languages-header">
-        Languages, Frameworks &amp; Databases
+        Languages, Frameworks, Libraries, Databases &amp; Ideologies
       </div>
       <div className="languages-body">
         JavaScript
@@ -26,6 +26,15 @@ const Languages = () => {
         <br />
         MongoDB
         <br />
+        Mongoose
+        <br />
+        TypeScript
+        <br />
+        SCRUM
+        <br />
+        Agile/Kanban
+        <br />
+        Jest
       </div>
     </div>
   );

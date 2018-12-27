@@ -18,6 +18,26 @@ class Experience extends Component {
 
         {this.state.showContentEx ? (
           <div className="experience-body">
+            <div className="booking">
+              <span className="job-title">Software Engineer</span>
+              <br />
+              <span className="job-address">Booking.com, Manchester, UK</span>
+              <br />
+              <span className="job-date">January 2019 - Present</span>
+            </div>
+            <br />
+
+            <div className="degree53">
+              <span className="job-title">
+                Junior Front-End React Developer
+              </span>
+              <br />
+              <span className="job-address">Degree 53, Manchester, UK</span>
+              <br />
+              <span className="job-date">November 2018 - January 2019</span>
+            </div>
+            <br />
+
             <div className="cdl">
               <span className="job-title">Junior Product Developer</span>
               <br />
@@ -90,6 +110,25 @@ class Experience extends Component {
           </div>
         ) : (
           <div className="experience-body">
+            <div className="booking">
+              <span className="job-title">Software Engineer</span>
+              <br />
+              <span className="job-address">Booking.com, Manchester, UK</span>
+              <br />
+              <span className="job-date">January 2019 - Present</span>
+            </div>
+            <br />
+
+            <div className="degree53">
+              <span className="job-title">
+                Junior Front-End React Developer
+              </span>
+              <br />
+              <span className="job-address">Degree 53, Manchester, UK</span>
+              <br />
+              <span className="job-date">November 2018 - January 2019</span>
+            </div>
+            <br />
             <div className="cdl">
               <span className="job-title">Junior Product Developer</span>
               <br />
@@ -97,15 +136,7 @@ class Experience extends Component {
               <br />
               <span className="job-date">March 2018 - August 2018</span>
             </div>
-            <div className="ies">
-              <span className="job-title">Vice Principal</span>
-              <br />
-              <span className="job-address">
-                Internationella Engelska Skolan, Stockholm, Sweden
-              </span>
-              <br />
-              <span className="job-date">June 2017 - March 2018</span>
-            </div>
+
             <Button
               variant="contained"
               color="secondary"

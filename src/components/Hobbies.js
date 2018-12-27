@@ -6,16 +6,17 @@ const Hobbies = () => {
     <div className="hobbies-box">
       <div className="hobbies-header">Personal Statement</div>
       <div className="hobbies-body">
-        Professional &amp; extremely dedicated self-learner. Relishes dynamic
-        and fast paced environments. Enjoy challenging myself and pushing the
-        barriers of my comfort zone in order to develop and learn.
+        Junior FrontEnd JavaScript Developer with detail-oriented nature.
         <br />
-        <div>
-          <br />
-          Previously worked as a Vice Principal in Stockholm, Sweden before
-          returning to Manchester for a career change. Attended Bolton and
-          Salford University and studied Music and a PGCE (Teacher training).
-        </div>
+        <br />
+        Learnt best practices and agile methodologies at Manchester Codes
+        Academy where technologies taught include JavaScript, Node, React,
+        Express and MongoDB.
+        <br />
+        <br />
+        Currently volunteer in assisting learners of all ages with learning to
+        code. Equipped with a strong understanding of JavaScript fundamentals
+        and React concepts with a general understanding across the full-stack.
       </div>
     </div>
   );
