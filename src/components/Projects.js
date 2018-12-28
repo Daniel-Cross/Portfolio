@@ -76,7 +76,7 @@ const styles = theme => ({
 
 const examples = [
   {
-    name: 'keegan',
+    name: 'Kevin Keegan Generator',
     description:
       'Mobile first app that randomly generates a quote or story about Kevin Keegan, who some believe to be the unluckiest footballer in the world. Created in React.js',
     url:
@@ -86,7 +86,7 @@ const examples = [
     width: '50%'
   },
   {
-    name: 'vice-app',
+    name: 'Vice App',
     description:
       'Mobile first app dark humor app that helps you track your vices and save money. Created in React.js',
     url:
