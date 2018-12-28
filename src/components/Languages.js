@@ -4,9 +4,7 @@ import '../styles/Languages.css';
 const Languages = () => {
   return (
     <div className="languages-box">
-      <div className="languages-header">
-        Languages, Frameworks, Libraries, Databases &amp; Ideologies
-      </div>
+      <div className="languages-header">Technologies &amp; Ideologies</div>
       <div className="languages-body">
         JavaScript
         <br />
