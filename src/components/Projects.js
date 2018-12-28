@@ -76,9 +76,29 @@ const styles = theme => ({
 
 const examples = [
   {
+    name: 'keegan',
+    description:
+      'Mobile first app that randomly generates a quote or story about Kevin Keegan, who some believe to be the unluckiest footballer in the world. Created in React.js',
+    url:
+      'https://camo.githubusercontent.com/c83037216353a2fd905c7d8c7c655f4ffac90499/68747470733a2f2f692e696d6775722e636f6d2f7458304c4f69782e706e67',
+    github: 'https://github.com/Daniel-Cross/keegan',
+    live: null,
+    width: '50%'
+  },
+  {
+    name: 'vice-app',
+    description:
+      'Mobile first app dark humor app that helps you track your vices and save money. Created in React.js',
+    url:
+      'https://camo.githubusercontent.com/6cd4567a59c3dca09e91e461a1ad1a07244f75cb/68747470733a2f2f692e696d6775722e636f6d2f44434d48484b482e706e67',
+    github: 'https://github.com/Daniel-Cross/vice-app',
+    live: null,
+    width: '50%'
+  },
+  {
     name: '5-3-1 Workout Tracker',
     description:
-      'Currently under construction. App to track progress and development of your 5-3-1 workout plan. Front end created in React.js and back end created using Node.js, Express.js and MongoDB.',
+      'App to track progress and development of your 5-3-1 workout plan. Front end created in React.js and back end created using Node.js, Express.js and MongoDB.',
     url: 'https://i.imgur.com/QCmrbo8.jpg',
     github: 'https://github.com/Daniel-Cross/react-531-website',
     live: null,
